@@ -1,0 +1,279 @@
+
+.TextTitle {
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+   
+}
+
+.TextTitleSecond {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-weight: 900;
+   
+}
+
+
+.imageStart {
+    width: 50%;
+
+
+}
+
+.CtartIcon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    fill: red;
+
+
+}
+
+.TextTitleThird {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+   
+}
+
+.sectionFirst {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.BtnFirst {
+    text-transform: uppercase;
+    margin-right: 2%;
+    cursor: pointer;
+    background-color: violet;
+    height: 4rem;
+    width: 8rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.BtnFirst:hover {
+    background-color: aqua;
+    transition: 0.5s;
+    color: red;
+}
+
+
+
+.BtnSecond {
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+
+.BtnSecond:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+
+.SectionforthTitle {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.navigation {
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.navigation-link {
+    font-size: 2rem;
+    margin-right: 15%;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cardsTitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 4%;
+
+}
+
+.cardFlexContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3%;
+
+
+}
+
+.cardFirstTitle {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 2%;
+    padding: 0 15%;
+    font-weight: 700;
+}
+
+.cardsFirstTexter {
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2%;
+    padding: 0 10%;
+
+}
+
+.cardsButton {
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: violet;
+    height: 2.5rem;
+    width: 7rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 3%;
+}
+
+.discription {
+    display: flex;
+    justify-content: space-around;
+}
+
+.DiscriptionTitle {
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.DiscriptionContainer {
+    margin-left: 5%;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.DiscriptionText {
+    text-transform: uppercase;
+    margin-top: 7%;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0 25%;
+
+}
+
+.DiscriptionDeep {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 0 15%;
+    margin-top: 7%;
+}
+
+.cardsButtonDeep {
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: violet;
+    height: 2.5rem;
+    width: 7rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 3%;
+
+}
+
+.footerFlexContainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.footerLiContainerDeep {
+    padding: 0;
+    text-align: start;
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.footerLiContainerDeepSecond {
+    padding: 0;
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.endlogo {
+    padding: 0;;
+}
+
+.LogoSub {
+    text-transform: uppercase;
+}
+
+.footerInputSection {
+    width: 100%;
+    height: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.footerIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: 3%;
+    margin-right: 5%;
+
+}
+
+
+
+
+
+
+
+
